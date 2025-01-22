@@ -1,4 +1,4 @@
-# EMGdecomPy
+# EMGdecomPy_Modified by Wen Lab
 
 [![ci-cd](https://github.com/UBC-SPL-MDS/emgdecompy/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-SPL-MDS/emgdecompy/actions/workflows/ci-cd.yml)
 [![codecov](https://codecov.io/gh/The-Motor-Unit/EMGdecomPy/branch/main/graph/badge.svg?token=78ZU40UEOE)](https://codecov.io/gh/The-Motor-Unit/EMGdecomPy)
@@ -110,7 +110,7 @@ docker run --platform linux/amd64 --rm -v /$(pwd):/home/emgdecompy danfke/pandoc
 `EMGdecomPy` is compatible with Python versions 3.9 to 3.11.
 
 ```bash
-pip install emgdecompy
+pip install emgdecompy_wenlab
 ```
 
 ## Usage

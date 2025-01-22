@@ -10,7 +10,7 @@ import panel as pn
 from panel.interact import interact, fixed
 import math
 from sklearn.metrics import mean_squared_error
-from emgdecompy.preprocessing import (
+from .preprocessing import (
     flatten_signal,
     center_matrix,
     butter_bandpass_filter,

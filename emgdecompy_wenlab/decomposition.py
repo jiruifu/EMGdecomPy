@@ -3,8 +3,8 @@
 # based off the work in Francesco Negro et al 2016 J. Neural Eng. 13 026027.
 
 import numpy as np
-from emgdecompy.preprocessing import flatten_signal, butter_bandpass_filter, center_matrix, extend_all_channels, whiten
-from emgdecompy.contrast import skew, apply_contrast
+from .preprocessing import flatten_signal, butter_bandpass_filter, center_matrix, extend_all_channels, whiten
+from .contrast import skew, apply_contrast
 from scipy.signal import find_peaks
 from sklearn.cluster import KMeans
 from scipy.stats import variation
