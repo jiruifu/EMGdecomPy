@@ -600,7 +600,7 @@ def decomposition(
     x = flatten_signal(x)
     
     # Discard unwanted channels
-    if discard != None:
+    if discard.all() != None:
         x = np.delete(x, discard, axis=0)
 
     # Apply band-pass filter
