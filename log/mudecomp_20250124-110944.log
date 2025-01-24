@@ -1,0 +1,3 @@
+2025-01-24 11:09:44,813 - INFO - Selected folder: C:/Users/Jerry Fu/Documents/GitHub/EMGdecomPy, all log files will be saved in this directory
+2025-01-24 11:09:53,453 - INFO - Selected folder: C:/Users/Jerry Fu/Documents/nmi_dataset/raw/Experimental_data_Raw for raw data
+2025-01-24 11:09:57,966 - INFO - Selected files: ['GL_10.mat', 'GL_30.mat', 'GL_50.mat', 'GL_70.mat']
