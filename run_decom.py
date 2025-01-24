@@ -330,6 +330,7 @@ def main():
             old_MuPulse = data["MUPulses"]
             B = output["B"]
             log_and_print(logger, f"The shape of B is {B.shape}")
+            data["Sep_Vec"] = B
             data["old_MUPulses"] = old_MuPulse
             data["MUPulses"] = MuPulse
             log_and_print(logger, f"The shape of MUPulses is {MuPulse.shape}")

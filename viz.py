@@ -18,7 +18,7 @@ from preprocessing import (
 
 pn.extension("vega")
 
-print(f"Will run decomposition for {iterations[0][0]} iterations")
+# print(f"Will run decomposition for {iterations[0][0]} iterations")
 def RMSE(arr1, arr2):
     """
     Evaluates root mean square error for two series.

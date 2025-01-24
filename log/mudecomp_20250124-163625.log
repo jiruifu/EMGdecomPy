@@ -1,0 +1,1058 @@
+2025-01-24 16:36:25,386 - INFO - Selected folder: C:/Users/Jerry Fu/Documents/GitHub/EMGdecomPy, all log files will be saved in this directory
+2025-01-24 16:36:31,657 - INFO - Selected folder: C:/Users/Jerry Fu/Documents/nmi_dataset/raw/Experimental_data_Raw for raw data
+2025-01-24 16:36:38,568 - INFO - Selected files: ['GL_10.mat', 'GL_30.mat', 'GL_50.mat', 'GL_70.mat', 'GM_10.mat', 'GM_30.mat', 'GM_50.mat', 'GM_70.mat', 'TA_35.mat', 'TA_50.mat', 'TA_70.mat']
+2025-01-24 16:36:45,157 - INFO - Processing file: GL_10.mat
+2025-01-24 16:36:45,502 - INFO - Sampling rate: [[2048]]
+2025-01-24 16:36:45,504 - INFO - Will run decomposition for 50 iterations
+2025-01-24 16:36:45,700 - INFO - Centred.
+2025-01-24 16:36:46,297 - INFO - Extended.
+2025-01-24 16:36:50,362 - INFO - Whitened.
+2025-01-24 16:36:50,525 - INFO - 
+Iteration 0
+2025-01-24 16:36:51,994 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,035 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,082 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,131 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,173 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,222 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,267 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,313 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,358 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,406 - INFO - Warning in iteration 0: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:52,410 - INFO - For iteration 0, silhouette score is 0.9990795845065936
+2025-01-24 16:36:52,411 - INFO - For iteration 0, pulse-to-noise ratio is 30.24664684037177
+2025-01-24 16:36:52,411 - INFO - PNR: 30.24664684037177
+2025-01-24 16:36:52,411 - INFO - SIL: 0.9990795845065936
+2025-01-24 16:36:52,411 - INFO - cv_curr = 0
+2025-01-24 16:36:52,411 - INFO - cv_prev = 0
+2025-01-24 16:36:52,412 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:36:52,412 - INFO - For iteration 0
+2025-01-24 16:36:52,412 - INFO - cv_curr = 0
+2025-01-24 16:36:52,412 - INFO - cv_prev = 0
+2025-01-24 16:36:52,412 - INFO - Reason: cv_curr is 0
+2025-01-24 16:36:52,422 - INFO - 
+Iteration 1
+2025-01-24 16:36:54,442 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,485 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,526 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,574 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,617 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,666 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,720 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,765 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,817 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,859 - INFO - Warning in iteration 1: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:36:54,863 - INFO - For iteration 1, silhouette score is 0.998940263707347
+2025-01-24 16:36:54,864 - INFO - For iteration 1, pulse-to-noise ratio is 29.640926162727446
+2025-01-24 16:36:54,864 - INFO - PNR: 29.640926162727446
+2025-01-24 16:36:54,864 - INFO - SIL: 0.998940263707347
+2025-01-24 16:36:54,865 - INFO - cv_curr = 0
+2025-01-24 16:36:54,865 - INFO - cv_prev = 0
+2025-01-24 16:36:54,865 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:36:54,865 - INFO - For iteration 1
+2025-01-24 16:36:54,865 - INFO - cv_curr = 0
+2025-01-24 16:36:54,865 - INFO - cv_prev = 0
+2025-01-24 16:36:54,865 - INFO - Reason: cv_curr is 0
+2025-01-24 16:36:54,877 - INFO - 
+Iteration 2
+2025-01-24 16:37:01,014 - INFO - For iteration 2, silhouette score is 0.9709470798634839
+2025-01-24 16:37:01,015 - INFO - For iteration 2, pulse-to-noise ratio is 15.853290268571435
+2025-01-24 16:37:01,015 - INFO - Cov(ISI): 3.1717671941335763
+2025-01-24 16:37:01,016 - INFO - PNR: 15.853290268571435
+2025-01-24 16:37:01,016 - INFO - SIL: 0.9709470798634839
+2025-01-24 16:37:01,016 - INFO - cv_curr = 8.170472292088093
+2025-01-24 16:37:01,016 - INFO - cv_prev = 0.9498491812917182
+2025-01-24 16:37:01,016 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:37:01,016 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:01,016 - INFO - For iteration 2
+2025-01-24 16:37:01,016 - INFO - cv_curr = 8.170472292088093
+2025-01-24 16:37:01,017 - INFO - cv_prev = 0.9498491812917182
+2025-01-24 16:37:01,017 - INFO - Extracted source at iteration 2.
+2025-01-24 16:37:01,025 - INFO - 
+Iteration 3
+2025-01-24 16:37:03,804 - INFO - For iteration 3, silhouette score is 0.9966408627370141
+2025-01-24 16:37:03,805 - INFO - For iteration 3, pulse-to-noise ratio is 25.886305250334505
+2025-01-24 16:37:03,805 - INFO - Cov(ISI): 1.0302070291849041
+2025-01-24 16:37:03,806 - INFO - PNR: 25.886305250334505
+2025-01-24 16:37:03,806 - INFO - SIL: 0.9966408627370141
+2025-01-24 16:37:03,806 - INFO - cv_curr = 6.567569811053764
+2025-01-24 16:37:03,806 - INFO - cv_prev = 6.567569486217363
+2025-01-24 16:37:03,806 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:37:03,806 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:03,806 - INFO - For iteration 3
+2025-01-24 16:37:03,806 - INFO - cv_curr = 6.567569811053764
+2025-01-24 16:37:03,807 - INFO - cv_prev = 6.567569486217363
+2025-01-24 16:37:03,807 - INFO - Extracted source at iteration 3.
+2025-01-24 16:37:03,816 - INFO - 
+Iteration 4
+2025-01-24 16:37:05,858 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:05,906 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:05,954 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,000 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,055 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,100 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,153 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,205 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,260 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,310 - INFO - Warning in iteration 4: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:06,314 - INFO - For iteration 4, silhouette score is 0.9991171347781178
+2025-01-24 16:37:06,315 - INFO - For iteration 4, pulse-to-noise ratio is 30.45227978137506
+2025-01-24 16:37:06,315 - INFO - PNR: 30.45227978137506
+2025-01-24 16:37:06,315 - INFO - SIL: 0.9991171347781178
+2025-01-24 16:37:06,316 - INFO - cv_curr = 0
+2025-01-24 16:37:06,316 - INFO - cv_prev = 0
+2025-01-24 16:37:06,316 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:06,316 - INFO - For iteration 4
+2025-01-24 16:37:06,316 - INFO - cv_curr = 0
+2025-01-24 16:37:06,316 - INFO - cv_prev = 0
+2025-01-24 16:37:06,317 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:06,329 - INFO - 
+Iteration 5
+2025-01-24 16:37:13,377 - INFO - For iteration 5, silhouette score is 0.9935915202455085
+2025-01-24 16:37:13,378 - INFO - For iteration 5, pulse-to-noise ratio is 22.65401149977561
+2025-01-24 16:37:13,378 - INFO - Cov(ISI): 0.7135314945033033
+2025-01-24 16:37:13,378 - INFO - PNR: 22.65401149977561
+2025-01-24 16:37:13,378 - INFO - SIL: 0.9935915202455085
+2025-01-24 16:37:13,379 - INFO - cv_curr = 2.312137587780142
+2025-01-24 16:37:13,379 - INFO - cv_prev = 2.312137587780142
+2025-01-24 16:37:13,379 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:13,379 - INFO - For iteration 5
+2025-01-24 16:37:13,379 - INFO - cv_curr = 2.312137587780142
+2025-01-24 16:37:13,379 - INFO - cv_prev = 2.312137587780142
+2025-01-24 16:37:13,379 - INFO - Extracted source at iteration 5.
+2025-01-24 16:37:13,389 - INFO - 
+Iteration 6
+2025-01-24 16:37:14,730 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,771 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,819 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,861 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,905 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,951 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:14,999 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:15,052 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:15,104 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:15,150 - INFO - Warning in iteration 6: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:15,153 - INFO - For iteration 6, silhouette score is 0.9991143313584567
+2025-01-24 16:37:15,154 - INFO - For iteration 6, pulse-to-noise ratio is 30.420765864382155
+2025-01-24 16:37:15,154 - INFO - PNR: 30.420765864382155
+2025-01-24 16:37:15,155 - INFO - SIL: 0.9991143313584567
+2025-01-24 16:37:15,155 - INFO - cv_curr = 0
+2025-01-24 16:37:15,155 - INFO - cv_prev = 0
+2025-01-24 16:37:15,155 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:15,155 - INFO - For iteration 6
+2025-01-24 16:37:15,155 - INFO - cv_curr = 0
+2025-01-24 16:37:15,155 - INFO - cv_prev = 0
+2025-01-24 16:37:15,156 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:15,165 - INFO - 
+Iteration 7
+2025-01-24 16:37:16,492 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,543 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,596 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,646 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,691 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,743 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,786 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,841 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,886 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,936 - INFO - Warning in iteration 7: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:16,939 - INFO - For iteration 7, silhouette score is 0.9990546117806691
+2025-01-24 16:37:16,940 - INFO - For iteration 7, pulse-to-noise ratio is 30.135973772306873
+2025-01-24 16:37:16,941 - INFO - PNR: 30.135973772306873
+2025-01-24 16:37:16,941 - INFO - SIL: 0.9990546117806691
+2025-01-24 16:37:16,941 - INFO - cv_curr = 0
+2025-01-24 16:37:16,941 - INFO - cv_prev = 0
+2025-01-24 16:37:16,941 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:16,941 - INFO - For iteration 7
+2025-01-24 16:37:16,941 - INFO - cv_curr = 0
+2025-01-24 16:37:16,941 - INFO - cv_prev = 0
+2025-01-24 16:37:16,942 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:16,954 - INFO - 
+Iteration 8
+2025-01-24 16:37:18,965 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,008 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,053 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,103 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,151 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,204 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,251 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,296 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,339 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,383 - INFO - Warning in iteration 8: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:19,387 - INFO - For iteration 8, silhouette score is 0.9990269873684546
+2025-01-24 16:37:19,388 - INFO - For iteration 8, pulse-to-noise ratio is 30.017591113229788
+2025-01-24 16:37:19,388 - INFO - PNR: 30.017591113229788
+2025-01-24 16:37:19,388 - INFO - SIL: 0.9990269873684546
+2025-01-24 16:37:19,389 - INFO - cv_curr = 0
+2025-01-24 16:37:19,389 - INFO - cv_prev = 0
+2025-01-24 16:37:19,389 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:19,389 - INFO - For iteration 8
+2025-01-24 16:37:19,389 - INFO - cv_curr = 0
+2025-01-24 16:37:19,389 - INFO - cv_prev = 0
+2025-01-24 16:37:19,389 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:19,400 - INFO - 
+Iteration 9
+2025-01-24 16:37:20,746 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:20,792 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:20,834 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:20,884 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:20,928 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:20,977 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:21,033 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:21,079 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:21,121 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:21,168 - INFO - Warning in iteration 9: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:21,171 - INFO - For iteration 9, silhouette score is 0.9990688253811156
+2025-01-24 16:37:21,172 - INFO - For iteration 9, pulse-to-noise ratio is 30.212015874228452
+2025-01-24 16:37:21,172 - INFO - PNR: 30.212015874228452
+2025-01-24 16:37:21,172 - INFO - SIL: 0.9990688253811156
+2025-01-24 16:37:21,172 - INFO - cv_curr = 0
+2025-01-24 16:37:21,172 - INFO - cv_prev = 0
+2025-01-24 16:37:21,172 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:21,172 - INFO - For iteration 9
+2025-01-24 16:37:21,173 - INFO - cv_curr = 0
+2025-01-24 16:37:21,173 - INFO - cv_prev = 0
+2025-01-24 16:37:21,173 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:21,183 - INFO - 
+Iteration 10
+2025-01-24 16:37:23,184 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,233 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,279 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,320 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,371 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,419 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,469 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,517 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,561 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,605 - INFO - Warning in iteration 10: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:23,609 - INFO - For iteration 10, silhouette score is 0.9989524421555862
+2025-01-24 16:37:23,609 - INFO - For iteration 10, pulse-to-noise ratio is 29.683299316166135
+2025-01-24 16:37:23,610 - INFO - PNR: 29.683299316166135
+2025-01-24 16:37:23,610 - INFO - SIL: 0.9989524421555862
+2025-01-24 16:37:23,610 - INFO - cv_curr = 0
+2025-01-24 16:37:23,610 - INFO - cv_prev = 0
+2025-01-24 16:37:23,610 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:23,610 - INFO - For iteration 10
+2025-01-24 16:37:23,610 - INFO - cv_curr = 0
+2025-01-24 16:37:23,611 - INFO - cv_prev = 0
+2025-01-24 16:37:23,611 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:23,620 - INFO - 
+Iteration 11
+2025-01-24 16:37:28,058 - INFO - For iteration 11, silhouette score is 0.9969257514040498
+2025-01-24 16:37:28,059 - INFO - For iteration 11, pulse-to-noise ratio is 26.390770529093526
+2025-01-24 16:37:28,059 - INFO - Cov(ISI): 1.030206097306906
+2025-01-24 16:37:28,060 - INFO - PNR: 26.390770529093526
+2025-01-24 16:37:28,060 - INFO - SIL: 0.9969257514040498
+2025-01-24 16:37:28,060 - INFO - cv_curr = 6.567563870331527
+2025-01-24 16:37:28,060 - INFO - cv_prev = 6.567563870331527
+2025-01-24 16:37:28,061 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:28,061 - INFO - For iteration 11
+2025-01-24 16:37:28,061 - INFO - cv_curr = 6.567563870331527
+2025-01-24 16:37:28,061 - INFO - cv_prev = 6.567563870331527
+2025-01-24 16:37:28,061 - INFO - Extracted source at iteration 11.
+2025-01-24 16:37:28,077 - INFO - 
+Iteration 12
+2025-01-24 16:37:29,407 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,451 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,493 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,533 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,577 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,628 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,675 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,723 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,772 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,821 - INFO - Warning in iteration 12: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:29,825 - INFO - For iteration 12, silhouette score is 0.9991132496559358
+2025-01-24 16:37:29,826 - INFO - For iteration 12, pulse-to-noise ratio is 30.40939086798341
+2025-01-24 16:37:29,826 - INFO - PNR: 30.40939086798341
+2025-01-24 16:37:29,826 - INFO - SIL: 0.9991132496559358
+2025-01-24 16:37:29,826 - INFO - cv_curr = 0
+2025-01-24 16:37:29,826 - INFO - cv_prev = 0
+2025-01-24 16:37:29,827 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:29,827 - INFO - For iteration 12
+2025-01-24 16:37:29,827 - INFO - cv_curr = 0
+2025-01-24 16:37:29,827 - INFO - cv_prev = 0
+2025-01-24 16:37:29,827 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:29,839 - INFO - 
+Iteration 13
+2025-01-24 16:37:31,193 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,245 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,294 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,340 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,388 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,430 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,477 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,523 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,564 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,612 - INFO - Warning in iteration 13: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:31,616 - INFO - For iteration 13, silhouette score is 0.9991453654327574
+2025-01-24 16:37:31,617 - INFO - For iteration 13, pulse-to-noise ratio is 30.603215551651182
+2025-01-24 16:37:31,617 - INFO - PNR: 30.603215551651182
+2025-01-24 16:37:31,617 - INFO - SIL: 0.9991453654327574
+2025-01-24 16:37:31,618 - INFO - cv_curr = 0
+2025-01-24 16:37:31,618 - INFO - cv_prev = 0
+2025-01-24 16:37:31,618 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:31,618 - INFO - For iteration 13
+2025-01-24 16:37:31,618 - INFO - cv_curr = 0
+2025-01-24 16:37:31,618 - INFO - cv_prev = 0
+2025-01-24 16:37:31,618 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:31,631 - INFO - 
+Iteration 14
+2025-01-24 16:37:33,022 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,067 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,112 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,160 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,207 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,248 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,295 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,337 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,378 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,421 - INFO - Warning in iteration 14: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:33,424 - INFO - For iteration 14, silhouette score is 0.9990528425994148
+2025-01-24 16:37:33,426 - INFO - For iteration 14, pulse-to-noise ratio is 30.137765470385425
+2025-01-24 16:37:33,426 - INFO - PNR: 30.137765470385425
+2025-01-24 16:37:33,426 - INFO - SIL: 0.9990528425994148
+2025-01-24 16:37:33,426 - INFO - cv_curr = 0
+2025-01-24 16:37:33,426 - INFO - cv_prev = 0
+2025-01-24 16:37:33,426 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:33,426 - INFO - For iteration 14
+2025-01-24 16:37:33,426 - INFO - cv_curr = 0
+2025-01-24 16:37:33,427 - INFO - cv_prev = 0
+2025-01-24 16:37:33,427 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:33,436 - INFO - 
+Iteration 15
+2025-01-24 16:37:34,829 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:34,871 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:34,915 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:34,957 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,007 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,060 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,106 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,163 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,205 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,250 - INFO - Warning in iteration 15: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:35,253 - INFO - For iteration 15, silhouette score is 0.9992195995593858
+2025-01-24 16:37:35,254 - INFO - For iteration 15, pulse-to-noise ratio is 30.9787791271204
+2025-01-24 16:37:35,254 - INFO - PNR: 30.9787791271204
+2025-01-24 16:37:35,254 - INFO - SIL: 0.9992195995593858
+2025-01-24 16:37:35,254 - INFO - cv_curr = 0
+2025-01-24 16:37:35,254 - INFO - cv_prev = 0
+2025-01-24 16:37:35,254 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:35,254 - INFO - For iteration 15
+2025-01-24 16:37:35,254 - INFO - cv_curr = 0
+2025-01-24 16:37:35,255 - INFO - cv_prev = 0
+2025-01-24 16:37:35,255 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:35,264 - INFO - 
+Iteration 16
+2025-01-24 16:37:40,662 - INFO - For iteration 16, silhouette score is 0.973064038743981
+2025-01-24 16:37:40,663 - INFO - For iteration 16, pulse-to-noise ratio is 16.42216690235646
+2025-01-24 16:37:40,663 - INFO - Cov(ISI): 0.9882645729639598
+2025-01-24 16:37:40,663 - INFO - PNR: 16.42216690235646
+2025-01-24 16:37:40,663 - INFO - SIL: 0.973064038743981
+2025-01-24 16:37:40,663 - INFO - cv_curr = 1.495926914630436
+2025-01-24 16:37:40,663 - INFO - cv_prev = 0.9989152351300694
+2025-01-24 16:37:40,663 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:37:40,664 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:40,664 - INFO - For iteration 16
+2025-01-24 16:37:40,664 - INFO - cv_curr = 1.495926914630436
+2025-01-24 16:37:40,664 - INFO - cv_prev = 0.9989152351300694
+2025-01-24 16:37:40,664 - INFO - Extracted source at iteration 16.
+2025-01-24 16:37:40,674 - INFO - 
+Iteration 17
+2025-01-24 16:37:42,725 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,768 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,813 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,856 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,904 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,948 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:42,997 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:43,048 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:43,108 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:43,155 - INFO - Warning in iteration 17: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:43,158 - INFO - For iteration 17, silhouette score is 0.9989795354741957
+2025-01-24 16:37:43,159 - INFO - For iteration 17, pulse-to-noise ratio is 29.79140762776823
+2025-01-24 16:37:43,159 - INFO - PNR: 29.79140762776823
+2025-01-24 16:37:43,159 - INFO - SIL: 0.9989795354741957
+2025-01-24 16:37:43,159 - INFO - cv_curr = 0
+2025-01-24 16:37:43,159 - INFO - cv_prev = 0
+2025-01-24 16:37:43,159 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:43,159 - INFO - For iteration 17
+2025-01-24 16:37:43,160 - INFO - cv_curr = 0
+2025-01-24 16:37:43,160 - INFO - cv_prev = 0
+2025-01-24 16:37:43,160 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:43,171 - INFO - 
+Iteration 18
+2025-01-24 16:37:45,184 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,231 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,277 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,331 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,375 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,428 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,473 - INFO - Warning in iteration 18: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:45,522 - INFO - For iteration 18, silhouette score is 0.9010609875455485
+2025-01-24 16:37:45,523 - INFO - For iteration 18, pulse-to-noise ratio is 10.321001049130686
+2025-01-24 16:37:45,523 - INFO - Cov(ISI): 0.46860160116985033
+2025-01-24 16:37:45,524 - INFO - PNR: 10.321001049130686
+2025-01-24 16:37:45,524 - INFO - SIL: 0.9010609875455485
+2025-01-24 16:37:45,524 - INFO - cv_curr = 0.8498797285837575
+2025-01-24 16:37:45,524 - INFO - cv_prev = 0
+2025-01-24 16:37:45,524 - INFO - Refinement converged after 7 iterations.
+2025-01-24 16:37:45,524 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:45,524 - INFO - For iteration 18
+2025-01-24 16:37:45,524 - INFO - cv_curr = 0.8498797285837575
+2025-01-24 16:37:45,524 - INFO - cv_prev = 0
+2025-01-24 16:37:45,525 - INFO - Extracted source at iteration 18.
+2025-01-24 16:37:45,535 - INFO - 
+Iteration 19
+2025-01-24 16:37:46,934 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:46,978 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,025 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,073 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,114 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,161 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,215 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,266 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,315 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,362 - INFO - Warning in iteration 19: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:47,365 - INFO - For iteration 19, silhouette score is 0.9990930856115966
+2025-01-24 16:37:47,366 - INFO - For iteration 19, pulse-to-noise ratio is 30.331215428737533
+2025-01-24 16:37:47,366 - INFO - PNR: 30.331215428737533
+2025-01-24 16:37:47,366 - INFO - SIL: 0.9990930856115966
+2025-01-24 16:37:47,366 - INFO - cv_curr = 0
+2025-01-24 16:37:47,366 - INFO - cv_prev = 0
+2025-01-24 16:37:47,366 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:47,366 - INFO - For iteration 19
+2025-01-24 16:37:47,367 - INFO - cv_curr = 0
+2025-01-24 16:37:47,367 - INFO - cv_prev = 0
+2025-01-24 16:37:47,367 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:47,376 - INFO - 
+Iteration 20
+2025-01-24 16:37:49,385 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,433 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,475 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,527 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,574 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,623 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,666 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,710 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,751 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,793 - INFO - Warning in iteration 20: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:49,796 - INFO - For iteration 20, silhouette score is 0.9990167818775604
+2025-01-24 16:37:49,797 - INFO - For iteration 20, pulse-to-noise ratio is 29.955266098008902
+2025-01-24 16:37:49,797 - INFO - PNR: 29.955266098008902
+2025-01-24 16:37:49,798 - INFO - SIL: 0.9990167818775604
+2025-01-24 16:37:49,798 - INFO - cv_curr = 0
+2025-01-24 16:37:49,798 - INFO - cv_prev = 0
+2025-01-24 16:37:49,798 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:49,798 - INFO - For iteration 20
+2025-01-24 16:37:49,798 - INFO - cv_curr = 0
+2025-01-24 16:37:49,798 - INFO - cv_prev = 0
+2025-01-24 16:37:49,799 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:49,809 - INFO - 
+Iteration 21
+2025-01-24 16:37:51,187 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,229 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,272 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,320 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,370 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,422 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,466 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,513 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,562 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,608 - INFO - Warning in iteration 21: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:51,612 - INFO - For iteration 21, silhouette score is 0.9991395133748149
+2025-01-24 16:37:51,613 - INFO - For iteration 21, pulse-to-noise ratio is 30.561964811929002
+2025-01-24 16:37:51,613 - INFO - PNR: 30.561964811929002
+2025-01-24 16:37:51,613 - INFO - SIL: 0.9991395133748149
+2025-01-24 16:37:51,613 - INFO - cv_curr = 0
+2025-01-24 16:37:51,613 - INFO - cv_prev = 0
+2025-01-24 16:37:51,613 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:51,613 - INFO - For iteration 21
+2025-01-24 16:37:51,614 - INFO - cv_curr = 0
+2025-01-24 16:37:51,614 - INFO - cv_prev = 0
+2025-01-24 16:37:51,614 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:51,625 - INFO - 
+Iteration 22
+2025-01-24 16:37:53,651 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,694 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,747 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,801 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,851 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,895 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,942 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:53,988 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:54,035 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:54,091 - INFO - Warning in iteration 22: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:37:54,094 - INFO - For iteration 22, silhouette score is 0.9989509141859892
+2025-01-24 16:37:54,095 - INFO - For iteration 22, pulse-to-noise ratio is 29.685989220341654
+2025-01-24 16:37:54,095 - INFO - PNR: 29.685989220341654
+2025-01-24 16:37:54,095 - INFO - SIL: 0.9989509141859892
+2025-01-24 16:37:54,095 - INFO - cv_curr = 0
+2025-01-24 16:37:54,096 - INFO - cv_prev = 0
+2025-01-24 16:37:54,096 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:37:54,096 - INFO - For iteration 22
+2025-01-24 16:37:54,096 - INFO - cv_curr = 0
+2025-01-24 16:37:54,096 - INFO - cv_prev = 0
+2025-01-24 16:37:54,096 - INFO - Reason: cv_curr is 0
+2025-01-24 16:37:54,105 - INFO - 
+Iteration 23
+2025-01-24 16:38:00,816 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:00,861 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:00,906 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:00,946 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,005 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,046 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,088 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,136 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,183 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,230 - INFO - Warning in iteration 23: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:01,234 - INFO - For iteration 23, silhouette score is 0.9987018575054685
+2025-01-24 16:38:01,234 - INFO - For iteration 23, pulse-to-noise ratio is 28.739535174807244
+2025-01-24 16:38:01,234 - INFO - PNR: 28.739535174807244
+2025-01-24 16:38:01,234 - INFO - SIL: 0.9987018575054685
+2025-01-24 16:38:01,234 - INFO - cv_curr = 0
+2025-01-24 16:38:01,234 - INFO - cv_prev = 0
+2025-01-24 16:38:01,234 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:01,234 - INFO - For iteration 23
+2025-01-24 16:38:01,235 - INFO - cv_curr = 0
+2025-01-24 16:38:01,235 - INFO - cv_prev = 0
+2025-01-24 16:38:01,235 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:01,245 - INFO - 
+Iteration 24
+2025-01-24 16:38:02,555 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,599 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,647 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,701 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,748 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,792 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,839 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,891 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,939 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:02,996 - INFO - Warning in iteration 24: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:03,000 - INFO - For iteration 24, silhouette score is 0.9990365662437729
+2025-01-24 16:38:03,001 - INFO - For iteration 24, pulse-to-noise ratio is 30.051408802460127
+2025-01-24 16:38:03,001 - INFO - PNR: 30.051408802460127
+2025-01-24 16:38:03,001 - INFO - SIL: 0.9990365662437729
+2025-01-24 16:38:03,001 - INFO - cv_curr = 0
+2025-01-24 16:38:03,001 - INFO - cv_prev = 0
+2025-01-24 16:38:03,001 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:03,001 - INFO - For iteration 24
+2025-01-24 16:38:03,001 - INFO - cv_curr = 0
+2025-01-24 16:38:03,002 - INFO - cv_prev = 0
+2025-01-24 16:38:03,002 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:03,012 - INFO - 
+Iteration 25
+2025-01-24 16:38:08,427 - INFO - For iteration 25, silhouette score is 0.9961186694355095
+2025-01-24 16:38:08,428 - INFO - For iteration 25, pulse-to-noise ratio is 25.136350130802004
+2025-01-24 16:38:08,428 - INFO - Cov(ISI): 1.0302031672469105
+2025-01-24 16:38:08,428 - INFO - PNR: 25.136350130802004
+2025-01-24 16:38:08,429 - INFO - SIL: 0.9961186694355095
+2025-01-24 16:38:08,429 - INFO - cv_curr = 6.567545191199056
+2025-01-24 16:38:08,429 - INFO - cv_prev = 6.56751068280654
+2025-01-24 16:38:08,429 - INFO - Refinement converged after 1 iterations.
+2025-01-24 16:38:08,429 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:08,429 - INFO - For iteration 25
+2025-01-24 16:38:08,430 - INFO - cv_curr = 6.567545191199056
+2025-01-24 16:38:08,430 - INFO - cv_prev = 6.56751068280654
+2025-01-24 16:38:08,430 - INFO - Extracted source at iteration 25.
+2025-01-24 16:38:08,440 - INFO - 
+Iteration 26
+2025-01-24 16:38:10,528 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,568 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,616 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,662 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,705 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,755 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,806 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,849 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,894 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,946 - INFO - Warning in iteration 26: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:10,949 - INFO - For iteration 26, silhouette score is 0.9989537953970762
+2025-01-24 16:38:10,950 - INFO - For iteration 26, pulse-to-noise ratio is 29.69323353010463
+2025-01-24 16:38:10,950 - INFO - PNR: 29.69323353010463
+2025-01-24 16:38:10,951 - INFO - SIL: 0.9989537953970762
+2025-01-24 16:38:10,951 - INFO - cv_curr = 0
+2025-01-24 16:38:10,951 - INFO - cv_prev = 0
+2025-01-24 16:38:10,951 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:10,951 - INFO - For iteration 26
+2025-01-24 16:38:10,951 - INFO - cv_curr = 0
+2025-01-24 16:38:10,951 - INFO - cv_prev = 0
+2025-01-24 16:38:10,952 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:10,963 - INFO - 
+Iteration 27
+2025-01-24 16:38:12,996 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,040 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,084 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,134 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,185 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,238 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,280 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,328 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,381 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,436 - INFO - Warning in iteration 27: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:13,440 - INFO - For iteration 27, silhouette score is 0.9990106986511597
+2025-01-24 16:38:13,441 - INFO - For iteration 27, pulse-to-noise ratio is 29.938563489623824
+2025-01-24 16:38:13,441 - INFO - PNR: 29.938563489623824
+2025-01-24 16:38:13,441 - INFO - SIL: 0.9990106986511597
+2025-01-24 16:38:13,441 - INFO - cv_curr = 0
+2025-01-24 16:38:13,441 - INFO - cv_prev = 0
+2025-01-24 16:38:13,442 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:13,442 - INFO - For iteration 27
+2025-01-24 16:38:13,442 - INFO - cv_curr = 0
+2025-01-24 16:38:13,442 - INFO - cv_prev = 0
+2025-01-24 16:38:13,442 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:13,450 - INFO - 
+Iteration 28
+2025-01-24 16:38:16,136 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,179 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,228 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,276 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,321 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,365 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,412 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,452 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,501 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,547 - INFO - Warning in iteration 28: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:16,551 - INFO - For iteration 28, silhouette score is 0.9989235871724126
+2025-01-24 16:38:16,551 - INFO - For iteration 28, pulse-to-noise ratio is 29.563412187302124
+2025-01-24 16:38:16,552 - INFO - PNR: 29.563412187302124
+2025-01-24 16:38:16,552 - INFO - SIL: 0.9989235871724126
+2025-01-24 16:38:16,552 - INFO - cv_curr = 0
+2025-01-24 16:38:16,552 - INFO - cv_prev = 0
+2025-01-24 16:38:16,552 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:16,552 - INFO - For iteration 28
+2025-01-24 16:38:16,552 - INFO - cv_curr = 0
+2025-01-24 16:38:16,552 - INFO - cv_prev = 0
+2025-01-24 16:38:16,552 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:16,562 - INFO - 
+Iteration 29
+2025-01-24 16:38:19,982 - INFO - For iteration 29, silhouette score is 0.9941021930525954
+2025-01-24 16:38:19,983 - INFO - For iteration 29, pulse-to-noise ratio is 23.044840795272307
+2025-01-24 16:38:19,983 - INFO - Cov(ISI): 0.7135327505741329
+2025-01-24 16:38:19,983 - INFO - PNR: 23.044840795272307
+2025-01-24 16:38:19,983 - INFO - SIL: 0.9941021930525954
+2025-01-24 16:38:19,983 - INFO - cv_curr = 2.312141657969896
+2025-01-24 16:38:19,983 - INFO - cv_prev = 2.312140463723345
+2025-01-24 16:38:19,983 - INFO - Refinement converged after 1 iterations.
+2025-01-24 16:38:19,985 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:19,985 - INFO - For iteration 29
+2025-01-24 16:38:19,985 - INFO - cv_curr = 2.312141657969896
+2025-01-24 16:38:19,985 - INFO - cv_prev = 2.312140463723345
+2025-01-24 16:38:19,985 - INFO - Extracted source at iteration 29.
+2025-01-24 16:38:19,996 - INFO - 
+Iteration 30
+2025-01-24 16:38:26,820 - INFO - For iteration 30, silhouette score is 0.9238123131091239
+2025-01-24 16:38:26,821 - INFO - For iteration 30, pulse-to-noise ratio is 11.471342869753993
+2025-01-24 16:38:26,822 - INFO - Cov(ISI): 0.479868969908387
+2025-01-24 16:38:26,822 - INFO - PNR: 11.471342869753993
+2025-01-24 16:38:26,822 - INFO - SIL: 0.9238123131091239
+2025-01-24 16:38:26,822 - INFO - cv_curr = 1.2122371917922437
+2025-01-24 16:38:26,822 - INFO - cv_prev = 0.8861152035392518
+2025-01-24 16:38:26,822 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:38:26,822 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:26,822 - INFO - For iteration 30
+2025-01-24 16:38:26,822 - INFO - cv_curr = 1.2122371917922437
+2025-01-24 16:38:26,822 - INFO - cv_prev = 0.8861152035392518
+2025-01-24 16:38:26,823 - INFO - Extracted source at iteration 30.
+2025-01-24 16:38:26,832 - INFO - 
+Iteration 31
+2025-01-24 16:38:28,878 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:28,924 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:28,969 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,019 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,065 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,111 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,166 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,213 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,259 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,310 - INFO - Warning in iteration 31: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:29,313 - INFO - For iteration 31, silhouette score is 0.9989342686310956
+2025-01-24 16:38:29,314 - INFO - For iteration 31, pulse-to-noise ratio is 29.602477890729915
+2025-01-24 16:38:29,314 - INFO - PNR: 29.602477890729915
+2025-01-24 16:38:29,315 - INFO - SIL: 0.9989342686310956
+2025-01-24 16:38:29,315 - INFO - cv_curr = 0
+2025-01-24 16:38:29,315 - INFO - cv_prev = 0
+2025-01-24 16:38:29,315 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:29,315 - INFO - For iteration 31
+2025-01-24 16:38:29,315 - INFO - cv_curr = 0
+2025-01-24 16:38:29,315 - INFO - cv_prev = 0
+2025-01-24 16:38:29,315 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:29,327 - INFO - 
+Iteration 32
+2025-01-24 16:38:36,103 - INFO - For iteration 32, silhouette score is 0.9970306370361248
+2025-01-24 16:38:36,105 - INFO - For iteration 32, pulse-to-noise ratio is 26.473288688350042
+2025-01-24 16:38:36,105 - INFO - Cov(ISI): 1.0301887983954583
+2025-01-24 16:38:36,105 - INFO - PNR: 26.473288688350042
+2025-01-24 16:38:36,105 - INFO - SIL: 0.9970306370361248
+2025-01-24 16:38:36,105 - INFO - cv_curr = 6.567508387047557
+2025-01-24 16:38:36,106 - INFO - cv_prev = 6.567508369111936
+2025-01-24 16:38:36,106 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:38:36,106 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:36,106 - INFO - For iteration 32
+2025-01-24 16:38:36,106 - INFO - cv_curr = 6.567508387047557
+2025-01-24 16:38:36,106 - INFO - cv_prev = 6.567508369111936
+2025-01-24 16:38:36,106 - INFO - Extracted source at iteration 32.
+2025-01-24 16:38:36,118 - INFO - 
+Iteration 33
+2025-01-24 16:38:38,186 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,226 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,275 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,326 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,373 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,417 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,462 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,516 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,561 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,613 - INFO - Warning in iteration 33: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:38,616 - INFO - For iteration 33, silhouette score is 0.9990137599204322
+2025-01-24 16:38:38,617 - INFO - For iteration 33, pulse-to-noise ratio is 29.93578944233597
+2025-01-24 16:38:38,617 - INFO - PNR: 29.93578944233597
+2025-01-24 16:38:38,617 - INFO - SIL: 0.9990137599204322
+2025-01-24 16:38:38,617 - INFO - cv_curr = 0
+2025-01-24 16:38:38,618 - INFO - cv_prev = 0
+2025-01-24 16:38:38,618 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:38,618 - INFO - For iteration 33
+2025-01-24 16:38:38,618 - INFO - cv_curr = 0
+2025-01-24 16:38:38,618 - INFO - cv_prev = 0
+2025-01-24 16:38:38,618 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:38,630 - INFO - 
+Iteration 34
+2025-01-24 16:38:40,039 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,081 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,127 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,170 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,218 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,265 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,306 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,353 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,404 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,451 - INFO - Warning in iteration 34: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:40,454 - INFO - For iteration 34, silhouette score is 0.9990996894081708
+2025-01-24 16:38:40,455 - INFO - For iteration 34, pulse-to-noise ratio is 30.355863878954935
+2025-01-24 16:38:40,455 - INFO - PNR: 30.355863878954935
+2025-01-24 16:38:40,455 - INFO - SIL: 0.9990996894081708
+2025-01-24 16:38:40,455 - INFO - cv_curr = 0
+2025-01-24 16:38:40,455 - INFO - cv_prev = 0
+2025-01-24 16:38:40,455 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:40,455 - INFO - For iteration 34
+2025-01-24 16:38:40,455 - INFO - cv_curr = 0
+2025-01-24 16:38:40,456 - INFO - cv_prev = 0
+2025-01-24 16:38:40,456 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:40,466 - INFO - 
+Iteration 35
+2025-01-24 16:38:44,959 - INFO - For iteration 35, silhouette score is 0.9934293854129549
+2025-01-24 16:38:44,960 - INFO - For iteration 35, pulse-to-noise ratio is 22.371834321164258
+2025-01-24 16:38:44,961 - INFO - Cov(ISI): 0.5225686216949016
+2025-01-24 16:38:44,961 - INFO - PNR: 22.371834321164258
+2025-01-24 16:38:44,961 - INFO - SIL: 0.9934293854129549
+2025-01-24 16:38:44,961 - INFO - cv_curr = 7.394287281407385
+2025-01-24 16:38:44,961 - INFO - cv_prev = 7.394287281407385
+2025-01-24 16:38:44,961 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:44,961 - INFO - For iteration 35
+2025-01-24 16:38:44,962 - INFO - cv_curr = 7.394287281407385
+2025-01-24 16:38:44,962 - INFO - cv_prev = 7.394287281407385
+2025-01-24 16:38:44,962 - INFO - Extracted source at iteration 35.
+2025-01-24 16:38:44,971 - INFO - 
+Iteration 36
+2025-01-24 16:38:46,995 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,037 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,080 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,124 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,170 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,212 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,257 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,298 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,345 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,391 - INFO - Warning in iteration 36: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:47,394 - INFO - For iteration 36, silhouette score is 0.9989873461901916
+2025-01-24 16:38:47,395 - INFO - For iteration 36, pulse-to-noise ratio is 29.83799226849793
+2025-01-24 16:38:47,396 - INFO - PNR: 29.83799226849793
+2025-01-24 16:38:47,396 - INFO - SIL: 0.9989873461901916
+2025-01-24 16:38:47,396 - INFO - cv_curr = 0
+2025-01-24 16:38:47,396 - INFO - cv_prev = 0
+2025-01-24 16:38:47,396 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:47,396 - INFO - For iteration 36
+2025-01-24 16:38:47,396 - INFO - cv_curr = 0
+2025-01-24 16:38:47,396 - INFO - cv_prev = 0
+2025-01-24 16:38:47,397 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:47,406 - INFO - 
+Iteration 37
+2025-01-24 16:38:48,805 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:48,850 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:48,902 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:48,949 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:48,994 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,038 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,092 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,140 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,190 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,239 - INFO - Warning in iteration 37: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:49,243 - INFO - For iteration 37, silhouette score is 0.9990754708005888
+2025-01-24 16:38:49,244 - INFO - For iteration 37, pulse-to-noise ratio is 30.23905205889746
+2025-01-24 16:38:49,244 - INFO - PNR: 30.23905205889746
+2025-01-24 16:38:49,245 - INFO - SIL: 0.9990754708005888
+2025-01-24 16:38:49,245 - INFO - cv_curr = 0
+2025-01-24 16:38:49,245 - INFO - cv_prev = 0
+2025-01-24 16:38:49,245 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:49,245 - INFO - For iteration 37
+2025-01-24 16:38:49,245 - INFO - cv_curr = 0
+2025-01-24 16:38:49,246 - INFO - cv_prev = 0
+2025-01-24 16:38:49,246 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:49,256 - INFO - 
+Iteration 38
+2025-01-24 16:38:51,251 - INFO - Warning in iteration 38: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:51,292 - INFO - Warning in iteration 38: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:51,342 - INFO - For iteration 38, silhouette score is 0.9094128027660618
+2025-01-24 16:38:51,344 - INFO - For iteration 38, pulse-to-noise ratio is 10.692394733110183
+2025-01-24 16:38:51,344 - INFO - Cov(ISI): 0.46228998512142533
+2025-01-24 16:38:51,344 - INFO - PNR: 10.692394733110183
+2025-01-24 16:38:51,344 - INFO - SIL: 0.9094128027660618
+2025-01-24 16:38:51,344 - INFO - cv_curr = 1.0836973630520192
+2025-01-24 16:38:51,344 - INFO - cv_prev = 0
+2025-01-24 16:38:51,344 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:38:51,345 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:51,345 - INFO - For iteration 38
+2025-01-24 16:38:51,345 - INFO - cv_curr = 1.0836973630520192
+2025-01-24 16:38:51,345 - INFO - cv_prev = 0
+2025-01-24 16:38:51,345 - INFO - Extracted source at iteration 38.
+2025-01-24 16:38:51,355 - INFO - 
+Iteration 39
+2025-01-24 16:38:54,098 - INFO - Warning in iteration 39: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:54,143 - INFO - Warning in iteration 39: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:54,189 - INFO - Warning in iteration 39: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:54,243 - INFO - For iteration 39, silhouette score is 0.902447814212513
+2025-01-24 16:38:54,244 - INFO - For iteration 39, pulse-to-noise ratio is 10.383839403040392
+2025-01-24 16:38:54,244 - INFO - Cov(ISI): 0.4584440746428175
+2025-01-24 16:38:54,244 - INFO - PNR: 10.383839403040392
+2025-01-24 16:38:54,245 - INFO - SIL: 0.902447814212513
+2025-01-24 16:38:54,245 - INFO - cv_curr = 0.8778551439979858
+2025-01-24 16:38:54,245 - INFO - cv_prev = 0
+2025-01-24 16:38:54,245 - INFO - Refinement converged after 3 iterations.
+2025-01-24 16:38:54,245 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:54,245 - INFO - For iteration 39
+2025-01-24 16:38:54,245 - INFO - cv_curr = 0.8778551439979858
+2025-01-24 16:38:54,245 - INFO - cv_prev = 0
+2025-01-24 16:38:54,246 - INFO - Extracted source at iteration 39.
+2025-01-24 16:38:54,258 - INFO - 
+Iteration 40
+2025-01-24 16:38:55,625 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,667 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,713 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,757 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,802 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,854 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,897 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,947 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:55,998 - INFO - Warning in iteration 40: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:56,051 - INFO - For iteration 40, silhouette score is 0.9166731110721519
+2025-01-24 16:38:56,052 - INFO - For iteration 40, pulse-to-noise ratio is 11.043703935072466
+2025-01-24 16:38:56,052 - INFO - Cov(ISI): 0.38618949508783923
+2025-01-24 16:38:56,052 - INFO - PNR: 11.043703935072466
+2025-01-24 16:38:56,052 - INFO - SIL: 0.9166731110721519
+2025-01-24 16:38:56,052 - INFO - cv_curr = 1.0764879732351773
+2025-01-24 16:38:56,052 - INFO - cv_prev = 0
+2025-01-24 16:38:56,053 - INFO - Refinement converged after 9 iterations.
+2025-01-24 16:38:56,053 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:56,053 - INFO - For iteration 40
+2025-01-24 16:38:56,053 - INFO - cv_curr = 1.0764879732351773
+2025-01-24 16:38:56,053 - INFO - cv_prev = 0
+2025-01-24 16:38:56,053 - INFO - Extracted source at iteration 40.
+2025-01-24 16:38:56,061 - INFO - 
+Iteration 41
+2025-01-24 16:38:58,081 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,126 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,168 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,217 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,262 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,308 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,349 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,396 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,438 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,484 - INFO - Warning in iteration 41: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:38:58,487 - INFO - For iteration 41, silhouette score is 0.9990127220336419
+2025-01-24 16:38:58,488 - INFO - For iteration 41, pulse-to-noise ratio is 29.919737988746302
+2025-01-24 16:38:58,488 - INFO - PNR: 29.919737988746302
+2025-01-24 16:38:58,488 - INFO - SIL: 0.9990127220336419
+2025-01-24 16:38:58,488 - INFO - cv_curr = 0
+2025-01-24 16:38:58,489 - INFO - cv_prev = 0
+2025-01-24 16:38:58,489 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:38:58,489 - INFO - For iteration 41
+2025-01-24 16:38:58,489 - INFO - cv_curr = 0
+2025-01-24 16:38:58,489 - INFO - cv_prev = 0
+2025-01-24 16:38:58,489 - INFO - Reason: cv_curr is 0
+2025-01-24 16:38:58,500 - INFO - 
+Iteration 42
+2025-01-24 16:39:05,220 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,267 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,311 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,358 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,408 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,452 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,499 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,545 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,589 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,641 - INFO - Warning in iteration 42: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:05,645 - INFO - For iteration 42, silhouette score is 0.9987758167668617
+2025-01-24 16:39:05,646 - INFO - For iteration 42, pulse-to-noise ratio is 28.991844608402292
+2025-01-24 16:39:05,646 - INFO - PNR: 28.991844608402292
+2025-01-24 16:39:05,646 - INFO - SIL: 0.9987758167668617
+2025-01-24 16:39:05,646 - INFO - cv_curr = 0
+2025-01-24 16:39:05,646 - INFO - cv_prev = 0
+2025-01-24 16:39:05,647 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:05,647 - INFO - For iteration 42
+2025-01-24 16:39:05,647 - INFO - cv_curr = 0
+2025-01-24 16:39:05,647 - INFO - cv_prev = 0
+2025-01-24 16:39:05,647 - INFO - Reason: cv_curr is 0
+2025-01-24 16:39:05,658 - INFO - 
+Iteration 43
+2025-01-24 16:39:07,064 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,106 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,152 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,202 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,247 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,296 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,348 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,394 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,446 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,501 - INFO - Warning in iteration 43: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:07,504 - INFO - For iteration 43, silhouette score is 0.999087830215198
+2025-01-24 16:39:07,505 - INFO - For iteration 43, pulse-to-noise ratio is 30.28453438297202
+2025-01-24 16:39:07,505 - INFO - PNR: 30.28453438297202
+2025-01-24 16:39:07,505 - INFO - SIL: 0.999087830215198
+2025-01-24 16:39:07,505 - INFO - cv_curr = 0
+2025-01-24 16:39:07,506 - INFO - cv_prev = 0
+2025-01-24 16:39:07,506 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:07,506 - INFO - For iteration 43
+2025-01-24 16:39:07,506 - INFO - cv_curr = 0
+2025-01-24 16:39:07,506 - INFO - cv_prev = 0
+2025-01-24 16:39:07,506 - INFO - Reason: cv_curr is 0
+2025-01-24 16:39:07,518 - INFO - 
+Iteration 44
+2025-01-24 16:39:09,573 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,615 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,660 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,707 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,756 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,805 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,846 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,891 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,943 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,993 - INFO - Warning in iteration 44: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:09,997 - INFO - For iteration 44, silhouette score is 0.998920754173832
+2025-01-24 16:39:09,998 - INFO - For iteration 44, pulse-to-noise ratio is 29.55448894810383
+2025-01-24 16:39:09,999 - INFO - PNR: 29.55448894810383
+2025-01-24 16:39:09,999 - INFO - SIL: 0.998920754173832
+2025-01-24 16:39:09,999 - INFO - cv_curr = 0
+2025-01-24 16:39:09,999 - INFO - cv_prev = 0
+2025-01-24 16:39:09,999 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:09,999 - INFO - For iteration 44
+2025-01-24 16:39:09,999 - INFO - cv_curr = 0
+2025-01-24 16:39:10,000 - INFO - cv_prev = 0
+2025-01-24 16:39:10,000 - INFO - Reason: cv_curr is 0
+2025-01-24 16:39:10,011 - INFO - 
+Iteration 45
+2025-01-24 16:39:12,731 - INFO - Warning in iteration 45: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:12,777 - INFO - Warning in iteration 45: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:12,827 - INFO - Warning in iteration 45: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:12,876 - INFO - Warning in iteration 45: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:12,931 - INFO - For iteration 45, silhouette score is 0.9026564828757189
+2025-01-24 16:39:12,932 - INFO - For iteration 45, pulse-to-noise ratio is 10.37742602686305
+2025-01-24 16:39:12,932 - INFO - Cov(ISI): 0.4596572133291829
+2025-01-24 16:39:12,932 - INFO - PNR: 10.37742602686305
+2025-01-24 16:39:12,932 - INFO - SIL: 0.9026564828757189
+2025-01-24 16:39:12,932 - INFO - cv_curr = 0.8792352568496099
+2025-01-24 16:39:12,932 - INFO - cv_prev = 0
+2025-01-24 16:39:12,934 - INFO - Refinement converged after 4 iterations.
+2025-01-24 16:39:12,934 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:12,934 - INFO - For iteration 45
+2025-01-24 16:39:12,934 - INFO - cv_curr = 0.8792352568496099
+2025-01-24 16:39:12,934 - INFO - cv_prev = 0
+2025-01-24 16:39:12,934 - INFO - Extracted source at iteration 45.
+2025-01-24 16:39:12,946 - INFO - 
+Iteration 46
+2025-01-24 16:39:15,801 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:15,846 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:15,898 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:15,944 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:15,994 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,038 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,081 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,123 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,168 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,212 - INFO - Warning in iteration 46: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:16,216 - INFO - For iteration 46, silhouette score is 0.9989021246256249
+2025-01-24 16:39:16,217 - INFO - For iteration 46, pulse-to-noise ratio is 29.4740192269873
+2025-01-24 16:39:16,217 - INFO - PNR: 29.4740192269873
+2025-01-24 16:39:16,217 - INFO - SIL: 0.9989021246256249
+2025-01-24 16:39:16,217 - INFO - cv_curr = 0
+2025-01-24 16:39:16,218 - INFO - cv_prev = 0
+2025-01-24 16:39:16,218 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:16,218 - INFO - For iteration 46
+2025-01-24 16:39:16,218 - INFO - cv_curr = 0
+2025-01-24 16:39:16,218 - INFO - cv_prev = 0
+2025-01-24 16:39:16,218 - INFO - Reason: cv_curr is 0
+2025-01-24 16:39:16,227 - INFO - 
+Iteration 47
+2025-01-24 16:39:17,618 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,667 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,712 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,762 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,810 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,857 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,901 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,952 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:17,996 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:18,042 - INFO - Warning in iteration 47: One or more sample arguments is too small; all returned values will be NaN. See documentation for sample size requirements.
+2025-01-24 16:39:18,045 - INFO - For iteration 47, silhouette score is 0.9990127048402575
+2025-01-24 16:39:18,047 - INFO - For iteration 47, pulse-to-noise ratio is 29.93994564889054
+2025-01-24 16:39:18,047 - INFO - PNR: 29.93994564889054
+2025-01-24 16:39:18,047 - INFO - SIL: 0.9990127048402575
+2025-01-24 16:39:18,047 - INFO - cv_curr = 0
+2025-01-24 16:39:18,047 - INFO - cv_prev = 0
+2025-01-24 16:39:18,047 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:18,047 - INFO - For iteration 47
+2025-01-24 16:39:18,047 - INFO - cv_curr = 0
+2025-01-24 16:39:18,047 - INFO - cv_prev = 0
+2025-01-24 16:39:18,047 - INFO - Reason: cv_curr is 0
+2025-01-24 16:39:18,058 - INFO - 
+Iteration 48
+2025-01-24 16:39:25,303 - INFO - For iteration 48, silhouette score is 0.9520947525334642
+2025-01-24 16:39:25,305 - INFO - For iteration 48, pulse-to-noise ratio is 13.445108438695522
+2025-01-24 16:39:25,305 - INFO - Cov(ISI): 0.7710016148211569
+2025-01-24 16:39:25,305 - INFO - PNR: 13.445108438695522
+2025-01-24 16:39:25,305 - INFO - SIL: 0.9520947525334642
+2025-01-24 16:39:25,305 - INFO - cv_curr = 3.396285860770199
+2025-01-24 16:39:25,305 - INFO - cv_prev = 0.8455442620483913
+2025-01-24 16:39:25,306 - INFO - Refinement converged after 2 iterations.
+2025-01-24 16:39:25,306 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:25,306 - INFO - For iteration 48
+2025-01-24 16:39:25,306 - INFO - cv_curr = 3.396285860770199
+2025-01-24 16:39:25,306 - INFO - cv_prev = 0.8455442620483913
+2025-01-24 16:39:25,306 - INFO - Extracted source at iteration 48.
+2025-01-24 16:39:25,318 - INFO - 
+Iteration 49
+2025-01-24 16:39:38,769 - INFO - For iteration 49, silhouette score is 0.9360270829207952
+2025-01-24 16:39:38,770 - INFO - For iteration 49, pulse-to-noise ratio is 12.553911857907272
+2025-01-24 16:39:38,770 - INFO - Cov(ISI): 0.7174589766784409
+2025-01-24 16:39:38,770 - INFO - PNR: 12.553911857907272
+2025-01-24 16:39:38,772 - INFO - SIL: 0.9360270829207952
+2025-01-24 16:39:38,772 - INFO - cv_curr = 0.9159020905539165
+2025-01-24 16:39:38,772 - INFO - cv_prev = 0.6841594137086349
+2025-01-24 16:39:38,772 - INFO - Refinement converged after 3 iterations.
+2025-01-24 16:39:38,772 - INFO - Using SIL as acceptance criterion
+2025-01-24 16:39:38,772 - INFO - For iteration 49
+2025-01-24 16:39:38,772 - INFO - cv_curr = 0.9159020905539165
+2025-01-24 16:39:38,772 - INFO - cv_prev = 0.6841594137086349
+2025-01-24 16:39:38,772 - INFO - Extracted source at iteration 49.
+2025-01-24 16:39:38,966 - INFO - The shape of B is (1088, 17)
+2025-01-24 16:39:38,966 - INFO - The shape of MUPulses is (17,)
+2025-01-24 16:39:38,966 - INFO - The new PNR is [15.85329027 25.88630525 22.6540115  26.39077053 16.4221669  10.32100105
+ 25.13635013 23.0448408  11.47134287 26.47328869 22.37183432 10.69239473
+ 10.3838394  11.04370394 10.37742603 13.44510844 12.55391186]
+2025-01-24 16:39:38,967 - INFO - The new SIL is [0.97094708 0.99664086 0.99359152 0.99692575 0.97306404 0.90106099
+ 0.99611867 0.99410219 0.92381231 0.99703064 0.99342939 0.9094128
+ 0.90244781 0.91667311 0.90265648 0.95209475 0.93602708]
+2025-01-24 16:40:02,718 - INFO - Skipping visualization
+2025-01-24 16:40:02,718 - INFO - Processing file: GL_30.mat
+2025-01-24 16:40:03,361 - INFO - Sampling rate: [[2048]]
+2025-01-24 16:40:03,361 - INFO - Will run decomposition for 50 iterations
+2025-01-24 16:40:03,694 - INFO - Centred.
