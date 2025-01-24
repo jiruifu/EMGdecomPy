@@ -475,7 +475,9 @@ def refinement(
     sil = silhouette_score(
         s_i2, peak_indices_a
     )
+    print(f"For iteration {i}, silhouette score is {sil}")
     pnr_score = pnr(s_i2, peak_indices_a)
+    print(f"For iteration {i}, pulse-to-noise ratio is {pnr_score}")
     
     if isi.size > 0 and verbose:
         print(f"Cov(ISI): {cv_curr / isi.mean() * 100}")
@@ -490,13 +492,32 @@ def refinement(
             print(f"Refinement converged after {iter} iterations.")
 
     if sil_pnr:
+        print(f"Using SIL as acceptance criterion")
         score = sil # If using SIL as acceptance criterion
     else:
+        print(f"Using PNR as acceptance criterion")
         score = pnr_score # If using PNR as acceptance criterion
+    
+    print(f"For iteration {i}")
+    print(f"cv_curr = {cv_curr}")
+    print(f"cv_prev = {cv_prev}")
     
     # Don't accept if score is below threshold or refinement doesn't converge
     if score < thresh or cv_curr < cv_prev or cv_curr == 0: 
         w_i = np.zeros_like(w_i) # If below threshold, reject estimated source and return nothing
+        print(f"Rejected estimated source at iteration {i}.")
+        if score < thresh:
+            print(f"Reason: score is below threshold")
+        if cv_curr < cv_prev:
+            print(f"Reason: cv_curr is less than cv_prev")
+        if cv_curr == 0:
+            print(f"Reason: cv_curr is 0")
+        if score < thresh and cv_curr < cv_prev and cv_curr == 0:
+            print(f"Reason: score is below threshold, cv_curr is less than cv_prev, and cv_curr is 0")
+        if cv_curr < cv_prev and cv_curr == 0:
+            print(f"Reason: cv_curr is less than cv_prev, and cv_curr is 0")
+        if cv_curr == 0 and score < thresh:
+            print(f"Reason: cv_curr is 0 and score is below threshold")
         return w_i, np.zeros_like(s_i), np.array([]), 0, 0
     else:
         print(f"Extracted source at iteration {i}.")
@@ -506,6 +527,7 @@ def refinement(
 def decomposition(
     x,
     discard=None,
+    discard_indices=None,
     R=16,
     M=64,
     bandpass=True,
@@ -601,7 +623,7 @@ def decomposition(
     
     # Discard unwanted channels
     if discard != None:
-        x = np.delete(x, discard, axis=0)
+        x = np.delete(x, discard_indices, axis=0)
 
     # Apply band-pass filter
     if bandpass:
@@ -642,7 +664,7 @@ def decomposition(
     pnrs = []
 
     for i in range(M):
-
+        print(f"\nIteration {i}")
         z_highest_peak = (
             z_peak_heights.argmax()
         )  # Determine which column of z has the highest activity
