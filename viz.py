@@ -10,7 +10,7 @@ import panel as pn
 from panel.interact import interact, fixed
 import math
 from sklearn.metrics import mean_squared_error
-from .preprocessing import (
+from preprocessing import (
     flatten_signal,
     center_matrix,
     butter_bandpass_filter,
@@ -18,7 +18,7 @@ from .preprocessing import (
 
 pn.extension("vega")
 
-
+print(f"Will run decomposition for {iterations[0][0]} iterations")
 def RMSE(arr1, arr2):
     """
     Evaluates root mean square error for two series.

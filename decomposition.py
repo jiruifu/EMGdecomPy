@@ -3,12 +3,16 @@
 # based off the work in Francesco Negro et al 2016 J. Neural Eng. 13 026027.
 
 import numpy as np
-from .preprocessing import flatten_signal, butter_bandpass_filter, center_matrix, extend_all_channels, whiten
-from .contrast import skew, apply_contrast
+from preprocessing import flatten_signal, butter_bandpass_filter, center_matrix, extend_all_channels, whiten
+from contrast import skew, apply_contrast
 from scipy.signal import find_peaks
 from sklearn.cluster import KMeans
 from scipy.stats import variation
+import logging
+from logger import setup_experiment_logger, log_and_print
+import warnings
 
+global logger
 
 def initial_w_matrix(z, l=31):
     """
@@ -186,6 +190,7 @@ def separation(
     ortho_fun=gram_schmidt,
     max_iter=10,
     verbose=False,
+    log=None
 ):
     """
     Finds the separation vector for the i-th source using latent component analysis
@@ -224,6 +229,9 @@ def separation(
     >>> w_i = separation(z, w_init, B)
 
     """
+    global logger
+    logger = log  # Add this line to set the global logger
+    
     n = 0
     w_curr = w_init
     w_prev = w_curr
@@ -265,7 +273,7 @@ def separation(
         n = n + 1
 
     if n < max_iter and verbose:
-        print(f"Fixed-point algorithm converged after {n} iterations.")
+        log_and_print(logger, f"Fixed-point algorithm converged after {n} iterations.")
 
     return w_curr
 
@@ -358,7 +366,7 @@ def pnr(s_i, peak_indices):
 
 
 def refinement(
-    w_i, z, i, l=31, sil_pnr=True, thresh=0.9, max_iter=10, random_seed=None, verbose=False
+    w_i, z, i, l=31, sil_pnr=True, thresh=0.9, max_iter=10, random_seed=None, verbose=False, log=None
 ):
     """
     Refines the estimated separation vectors determined by the `separation` function
@@ -413,7 +421,10 @@ def refinement(
     --------
     >>> w_i = refinement(w_i, z, i)
     """
-    cv_curr = np.inf # Set it to inf so there isn't a chance the loop breaks too early
+    global logger
+    logger = log  # Add this line to set the global logger
+    
+    cv_curr = np.inf  # Set it to inf so there isn't a chance the loop breaks too early
 
     for iter in range(max_iter):
         
@@ -456,10 +467,18 @@ def refinement(
         # c. Update inter-spike interval coefficients of variation
         isi = np.diff(peak_indices_a)  # inter-spike intervals
         cv_prev = cv_curr
-        cv_curr = variation(isi)
-
-        if np.isnan(cv_curr): # Translate nan to 0
+        
+        # Capture potential warning about small sample size
+        with warnings.catch_warnings(record=True) as w:
+            warnings.simplefilter("always")
+            cv_curr = variation(isi)
+            if len(w) > 0:
+                log_and_print(logger, f"Warning in iteration {i}: {str(w[-1].message)}")
+                cv_curr = 0  # Set to 0 when warning occurs
+        
+        if np.isnan(cv_curr):  # Translate nan to 0
             cv_curr = 0
+            log_and_print(logger, f"Warning in iteration {i}: cv_curr is NaN, setting to 0")
 
         if (
             cv_curr > cv_prev
@@ -475,52 +494,52 @@ def refinement(
     sil = silhouette_score(
         s_i2, peak_indices_a
     )
-    print(f"For iteration {i}, silhouette score is {sil}")
+    log_and_print(logger, f"For iteration {i}, silhouette score is {sil}")
     pnr_score = pnr(s_i2, peak_indices_a)
-    print(f"For iteration {i}, pulse-to-noise ratio is {pnr_score}")
+    log_and_print(logger, f"For iteration {i}, pulse-to-noise ratio is {pnr_score}")
     
     if isi.size > 0 and verbose:
-        print(f"Cov(ISI): {cv_curr / isi.mean() * 100}")
+        log_and_print(logger, f"Cov(ISI): {cv_curr / isi.mean() * 100}")
 
     if verbose:
-        print(f"PNR: {pnr_score}")
-        print(f"SIL: {sil}")
-        print(f"cv_curr = {cv_curr}")
-        print(f"cv_prev = {cv_prev}")
+        log_and_print(logger, f"PNR: {pnr_score}")
+        log_and_print(logger, f"SIL: {sil}")
+        log_and_print(logger, f"cv_curr = {cv_curr}")
+        log_and_print(logger, f"cv_prev = {cv_prev}")
         
         if cv_curr > cv_prev:
-            print(f"Refinement converged after {iter} iterations.")
+            log_and_print(logger, f"Refinement converged after {iter} iterations.")
 
     if sil_pnr:
-        print(f"Using SIL as acceptance criterion")
+        log_and_print(logger, f"Using SIL as acceptance criterion")
         score = sil # If using SIL as acceptance criterion
     else:
-        print(f"Using PNR as acceptance criterion")
+        log_and_print(logger, f"Using PNR as acceptance criterion")
         score = pnr_score # If using PNR as acceptance criterion
     
-    print(f"For iteration {i}")
-    print(f"cv_curr = {cv_curr}")
-    print(f"cv_prev = {cv_prev}")
+    log_and_print(logger, f"For iteration {i}")
+    log_and_print(logger, f"cv_curr = {cv_curr}")
+    log_and_print(logger, f"cv_prev = {cv_prev}")
     
     # Don't accept if score is below threshold or refinement doesn't converge
     if score < thresh or cv_curr < cv_prev or cv_curr == 0: 
         w_i = np.zeros_like(w_i) # If below threshold, reject estimated source and return nothing
         print(f"Rejected estimated source at iteration {i}.")
         if score < thresh:
-            print(f"Reason: score is below threshold")
+            log_and_print(logger, f"Reason: score is below threshold")
         if cv_curr < cv_prev:
-            print(f"Reason: cv_curr is less than cv_prev")
+            log_and_print(logger, f"Reason: cv_curr is less than cv_prev")
         if cv_curr == 0:
-            print(f"Reason: cv_curr is 0")
+            log_and_print(logger, f"Reason: cv_curr is 0")
         if score < thresh and cv_curr < cv_prev and cv_curr == 0:
-            print(f"Reason: score is below threshold, cv_curr is less than cv_prev, and cv_curr is 0")
+            log_and_print(logger, f"Reason: score is below threshold, cv_curr is less than cv_prev, and cv_curr is 0")
         if cv_curr < cv_prev and cv_curr == 0:
-            print(f"Reason: cv_curr is less than cv_prev, and cv_curr is 0")
+            log_and_print(logger, f"Reason: cv_curr is less than cv_prev, and cv_curr is 0")
         if cv_curr == 0 and score < thresh:
-            print(f"Reason: cv_curr is 0 and score is below threshold")
+            log_and_print(logger, f"Reason: cv_curr is 0 and score is below threshold")
         return w_i, np.zeros_like(s_i), np.array([]), 0, 0
     else:
-        print(f"Extracted source at iteration {i}.")
+        log_and_print(logger, f"Extracted source at iteration {i}.")
         return w_i, s_i, peak_indices_a, sil, pnr_score
 
 
@@ -544,7 +563,8 @@ def decomposition(
     thresh=0.9,
     max_iter_ref=10,
     random_seed=None,
-    verbose=False
+    verbose=False,
+    log=None
 ):
     """
     Blind source separation algorithm that utilizes the functions
@@ -617,7 +637,8 @@ def decomposition(
     >>> x = gl_10['SIG']
     >>> decomposition(x)
     """
-
+    global logger
+    logger = log
     # Flatten
     x = flatten_signal(x)
     
@@ -640,17 +661,17 @@ def decomposition(
     # Center
     x = center_matrix(x)
 
-    print("Centred.")
+    log_and_print(logger, "Centred.")
 
     # Extend
     x_ext = extend_all_channels(x, R)
 
-    print("Extended.")
+    log_and_print(logger, "Extended.")
 
     # Whiten
     z = whiten(x_ext)
 
-    print("Whitened.")
+    log_and_print(logger, "Whitened.")
 
     decomp_results = {}  # Create output dictionary
 
@@ -664,7 +685,7 @@ def decomposition(
     pnrs = []
 
     for i in range(M):
-        print(f"\nIteration {i}")
+        log_and_print(logger, f"\nIteration {i}")
         z_highest_peak = (
             z_peak_heights.argmax()
         )  # Determine which column of z has the highest activity
@@ -674,7 +695,7 @@ def decomposition(
         ]  # Initialize the separation vector with this column
 
         if verbose and (i + 1) % 10 == 0:
-            print(i)
+            log_and_print(logger, i)
 
         # Separate
         w_i = separation(
@@ -683,7 +704,7 @@ def decomposition(
 
         # Refine
         w_i, s_i, mu_peak_indices, sil, pnr_score = refinement(
-            w_i, z, i, l, sil_pnr, thresh, max_iter_ref, random_seed, verbose
+            w_i, z, i, l, sil_pnr, thresh, max_iter_ref, random_seed, verbose, log
         )
     
         B[:, i] = w_i # Update i-th column of separation matrix
